@@ -153,7 +153,7 @@ $(document).ready(function () {
       .append(
         `<li><p>` +
           getText +
-          ` <span>30,000원</span></p><a href="javascript:void(0)"><img src="/framework/assets/images/close_icon.svg" alt="닫기"></a></li>`
+          ` <span>30,000원</span></p><a href="javascript:void(0)"><img src="/framework/1.0.3/assets/images/close_icon.svg" alt="닫기"></a></li>`
       );
     //infoOption 추가
     const len = $(".infoOption ul li").length;
@@ -708,27 +708,86 @@ $(document).ready(function () {
   });
 
   //guide 검색기능
-  $("#guide_keyword").keyup(function () {
-    const k = $(this).val().toLowerCase();
-    if (k === "") {
-      $("nav ul li").show();
+  $("#guide_keyword").on("keyup", function () {
+    const keyword = $(this).val().toLowerCase();
+  
+    if (keyword === "") {
+      // 검색어가 없으면 원래 상태로 전체 항목 보이기
+      $("nav ul, nav ul li, nav ul li ul").show();
+      $("nav ul li").removeClass("on");
+      $("nav ul li.show").addClass("on");
+      $("nav ul > li ul").hide();
+      
     } else {
-      $("nav ul").hide();
-
-      const findK = $("nav a").filter(function () {
-        return $(this).text().toLowerCase().includes(k);
+      // 검색어가 있을 때
+      $("nav ul li").removeClass("on");
+      $("nav ul").hide(); // 전체 목록 숨기기
+      // 필터링
+      $("nav ul li").each(function () {
+        const match = $(this).text().toLowerCase().includes(keyword);
+        $(this).toggle(match);
+  
+        if (match) {
+          // 부모 ul을 보이게 하고 클래스 처리
+          $(this).parents("ul").show();
+          $(this).parents("li").removeClass("on");
+        } else {
+          $(this).removeClass("on");
+        }
       });
-
-      if (findK.length === 0) {
-        $("nav ul, nav li.on, nav ul li ul").show();
-      } else {
-        findK.each(function () {
-          $("nav > ul > li").removeClass("on");
-          $("nav > ul > li > ul > li").addClass("on");
-          $(this).parentsUntil("nav", "ul, li").removeClass("on").show();
-          $(this).parents("nav > ul > li").addClass("on");
-        });
-      }
     }
   });
+});
+
+
+// version update
+document.addEventListener('DOMContentLoaded', () => {
+  // 기본 버전 리스트
+  const versions = [
+      { version: "Ver 1.0.0", url: "/framework/1.0.0" },
+      { version: "Ver 1.0.2", url: "/framework/1.0.2" },
+      { version: "Ver 1.0.3", url: "/framework/1.0.3" }
+  ];
+
+  function addVersion(version, url) {
+      const versionList = document.querySelector('.option ul'); // <ul> 선택
+      const selectButton = document.querySelector('.select button'); // 상단 버튼
+
+      // 새로운 <li>와 <button> 생성
+      const newLi = document.createElement('li');
+      const newButton = document.createElement('button');
+      newButton.type = 'button';
+      newButton.textContent = version;
+      newButton.dataset.url = url;
+
+      // 클릭 이벤트 추가: 링크 이동
+      newButton.addEventListener('click', () => {
+          window.location.href = url;
+      });
+
+      // <li>에 <button> 추가 후 <ul>에 붙이기
+      newLi.appendChild(newButton);
+      versionList.appendChild(newLi);
+
+      // 상단 버튼 텍스트 최신화
+      // selectButton.textContent = version;
+  }
+  
+  function initializeDefaultVersion() {
+    const currentPath = window.location.pathname; // 현재 경로 가져오기
+    const selectButton = document.querySelector('.select button'); // 상단 버튼
+
+    // 기본값 설정: 경로에 특정 버전이 포함되어 있는지 확인
+    const defaultVersion = versions.find(version => currentPath.includes(version.url));
+    if (defaultVersion) {
+        selectButton.textContent = defaultVersion.version; // 상단 버튼 텍스트 업데이트
+    } else {
+        selectButton.textContent = "Ver1.0.3"; // 기본값
+    }
+  }
+
+
+  // 초기 버전 렌더링
+  versions.forEach(({ version, url }) => addVersion(version, url));
+  initializeDefaultVersion();
 });

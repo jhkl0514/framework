@@ -43,52 +43,56 @@ input {
 @font-face {
   font-family: "SUIT";
   font-weight: 100;
-  src: url("/framework/assets/font/SUIT-woff2/SUIT-Thin.woff2") format("woff2");
+  src: url("/framework/1.0.3/assets/font/SUIT-woff2/SUIT-Thin.woff2")
+    format("woff2");
 }
 @font-face {
   font-family: "SUIT";
   font-weight: 200;
-  src: url("/framework/assets/font/SUIT-woff2/SUIT-ExtraLight.woff2")
+  src: url("/framework/1.0.3/assets/font/SUIT-woff2/SUIT-ExtraLight.woff2")
     format("woff2");
 }
 @font-face {
   font-family: "SUIT";
   font-weight: 300;
-  src: url("/framework/assets/font/SUIT-woff2/SUIT-Light.woff2") format("woff2");
+  src: url("/framework/1.0.3/assets/font/SUIT-woff2/SUIT-Light.woff2")
+    format("woff2");
 }
 @font-face {
   font-family: "SUIT";
   font-weight: 400;
-  src: url("/framework/assets/font/SUIT-woff2/SUIT-Regular.woff2")
+  src: url("/framework/1.0.3/assets/font/SUIT-woff2/SUIT-Regular.woff2")
     format("woff2");
 }
 @font-face {
   font-family: "SUIT";
   font-weight: 500;
-  src: url("/framework/assets/font/SUIT-woff2/SUIT-Medium.woff2")
+  src: url("/framework/1.0.3/assets/font/SUIT-woff2/SUIT-Medium.woff2")
     format("woff2");
 }
 @font-face {
   font-family: "SUIT";
   font-weight: 600;
-  src: url("/framework/assets/font/SUIT-woff2/SUIT-SemiBold.woff2")
+  src: url("/framework/1.0.3/assets/font/SUIT-woff2/SUIT-SemiBold.woff2")
     format("woff2");
 }
 @font-face {
   font-family: "SUIT";
   font-weight: 700;
-  src: url("/framework/assets/font/SUIT-woff2/SUIT-Bold.woff2") format("woff2");
+  src: url("/framework/1.0.3/assets/font/SUIT-woff2/SUIT-Bold.woff2")
+    format("woff2");
 }
 @font-face {
   font-family: "SUIT";
   font-weight: 800;
-  src: url("/framework/assets/font/SUIT-woff2/SUIT-ExtraBold.woff2")
+  src: url("/framework/1.0.3/assets/font/SUIT-woff2/SUIT-ExtraBold.woff2")
     format("woff2");
 }
 @font-face {
   font-family: "SUIT";
   font-weight: 900;
-  src: url("/framework/assets/font/SUIT-woff2/SUIT-Heavy.woff2") format("woff2");
+  src: url("/framework/1.0.3/assets/font/SUIT-woff2/SUIT-Heavy.woff2")
+    format("woff2");
 }
 :root {
   --clr-FFFFFF: #ffffff;
@@ -124,7 +128,8 @@ input {
 
 .DDY_header {
   height: 135px;
-  background: url("/framework/assets/images/DDY_line.jpg") top center no-repeat;
+  background: url("/framework/1.0.3/assets/images/DDY_line.jpg") top center
+    no-repeat;
   background-size: 3000px 135px;
 }
 .DDY_header img {
@@ -204,9 +209,9 @@ button {
 }
 
 .high_M {
-  height: 46px;
+  height: 48px;
   font-size: 16px;
-  line-height: 45px;
+  line-height: 48px;
   gap: 8px;
 }
 
@@ -256,7 +261,7 @@ button {
   transform: translate(0, -50%);
   width: 16px;
   height: 16px;
-  background: url("/framework/assets/images/indicator_icon.svg") center
+  background: url("/framework/1.0.3/assets/images/indicator_icon.svg") center
     no-repeat;
 }
 .indicator li:last-child::after {
@@ -667,7 +672,8 @@ table .Tright {
   width: 24px;
   height: 25px;
   transform: translate(0, -50%);
-  background: url("/framework/assets/images/select_arrow.svg") center no-repeat;
+  background: url("/framework/1.0.3/assets/images/select_arrow.svg") center
+    no-repeat;
   cursor: pointer;
 }
 .DDY_select .select.offline {
@@ -686,8 +692,8 @@ table .Tright {
 }
 .DDY_select .select.disable::after {
   content: "";
-  background: url("/framework/assets/images/select_arrow_disable.svg") center
-    no-repeat;
+  background: url("/framework/1.0.3/assets/images/select_arrow_disable.svg")
+    center no-repeat;
 }
 .DDY_select .select.disable.font_c button {
   color: var(--clr-BDBDBD);
@@ -805,8 +811,8 @@ table .Tright {
 }
 .DDY_select .option ul li.checked {
   background: var(--clr-EFF1FD)
-    url("/framework/assets/images/DDY_select_checked.svg") center right 8px
-    no-repeat;
+    url("/framework/1.0.3/assets/images/DDY_select_checked.svg") center right
+    8px no-repeat;
   border-radius: 4px;
 }
 .DDY_select .option ul li.checked button {
@@ -1224,12 +1230,12 @@ table .Tright {
   line-height: 30px;
 }
 .DDY_chips.size_L li {
-  height: 42px;
+  height: 44px;
 }
 .DDY_chips.size_L li a {
-  padding: 0 16px;
-  font-size: 16px;
-  line-height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 42px;
 }
 .DDY_chips.shape_R li {
   border-radius: 999px;
@@ -1424,6 +1430,11 @@ table .Tright {
   background-color: #ffa000;
   color: var(--clr-1A1A1A);
 }
+.DDY_badge.squre_fill.DDY_badge_dolbom {
+  background-color: #ff8120;
+  color: var(--clr-FFFFFF);
+}
+
 .DDY_badge.round_fill {
   height: 24px;
   border-radius: 100px;
@@ -1449,6 +1460,11 @@ table .Tright {
   background-color: #fff8e1;
   color: #ffa000;
 }
+.DDY_badge.squre_fill.DDY_badge_dolbom {
+  background-color: #ff8120;
+  color: var(--clr-FFFFFF);
+}
+
 .DDY_badge.round_fill.DDY_badge_Grey {
   background-color: var(--clr-F5F5F5);
   color: var(--clr-1A1A1A);
@@ -1514,6 +1530,11 @@ table .Tright {
   color: #f47100;
   border-color: #ffc77d;
   background-color: #fff5e6;
+}
+.DDY_badge.DDY_badge_dolbom {
+  color: #ff8120;
+  border-color: #ff8120;
+  background-color: #fdf5e6;
 }
 
 .DDY_radio:last-child label {
@@ -1856,8 +1877,8 @@ table .Tright {
   height: 120px;
   border: 1px solid var(--clr-616161);
   border-radius: 4px;
-  padding: 16px 16px 10px 16px;
-  font-size: 14px;
+  padding: 20px 20px 12px 20px;
+  font-size: 16px;
   line-height: 20px;
   resize: none;
   outline-color: var(--clr-323DA3);
@@ -2068,7 +2089,7 @@ table .Tright {
   .textLengthWrap {
   position: absolute;
   top: 90px;
-  right: 18px;
+  right: 20px;
   display: flex;
   align-items: center;
 }
@@ -2080,7 +2101,7 @@ table .Tright {
   .textarea_wrap
   .textLengthWrap
   p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 18px;
   color: var(--clr-999999);
@@ -2266,7 +2287,7 @@ table .Tright {
   transform: translate(0, -50%);
   width: 24px;
   height: 24px;
-  background: url("/framework/assets/images/select_arrow.svg") no-repeat;
+  background: url("/framework/1.0.3/assets/images/select_arrow.svg") no-repeat;
 }
 .accordionBox li .accordionBox_title span {
   font-size: 16px;
@@ -2352,7 +2373,7 @@ table .Tright {
 .DDY_checkBox input[type="checkBox"]:checked + label:before {
   border: 1px solid var(--clr-323DA3);
   background: var(--clr-323DA3)
-    url("/framework/assets/images/checkbox_icon.svg") center no-repeat;
+    url("/framework/1.0.3/assets/images/checkbox_icon.svg") center no-repeat;
 }
 .DDY_checkBox input:disabled {
   display: none;
@@ -2367,7 +2388,7 @@ table .Tright {
 .DDY_checkBox.disabled input[type="checkBox"]:checked + label:before {
   border: 1px solid var(--clr-BDBDBD);
   background: var(--clr-EEEEEE)
-    url("/framework/assets/images/checkbox_disable.svg") center no-repeat;
+    url("/framework/1.0.3/assets/images/checkbox_disable.svg") center no-repeat;
 }
 .DDY_checkBox input[type="checkBox"] {
   display: none;
@@ -2400,7 +2421,7 @@ table .Tright {
 .DDY_checkBox:hover input[type="checkBox"]:checked + label:before {
   border: 1px solid var(--clr-323DA3);
   background: var(--clr-141E76)
-    url("/framework/assets/images/checkbox_icon.svg") center no-repeat;
+    url("/framework/1.0.3/assets/images/checkbox_icon.svg") center no-repeat;
 }
 .DDY_checkBox:hover.disabled input[type="checkBox"] {
   display: none;
@@ -2408,7 +2429,7 @@ table .Tright {
 .DDY_checkBox:hover.disabled input[type="checkBox"]:checked + label:before {
   border: 1px solid var(--clr-BDBDBD);
   background: var(--clr-EEEEEE)
-    url("/framework/assets/images/checkbox_disable.svg") center no-repeat;
+    url("/framework/1.0.3/assets/images/checkbox_disable.svg") center no-repeat;
 }
 .DDY_checkBox:hover input[type="checkBox"] {
   display: none;
@@ -2451,7 +2472,7 @@ table .Tright {
   transform: translate(0, -50%);
   width: 16px;
   height: 16px;
-  background: url("/framework/assets/images/indicator_icon.svg") center
+  background: url("/framework/1.0.3/assets/images/indicator_icon.svg") center
     no-repeat;
 }
 .indicator li:last-child::after {
@@ -3099,12 +3120,12 @@ table .Tright {
 .textarea_wrap .textLengthWrap {
   position: absolute;
   top: 90px;
-  right: 18px;
+  right: 20px;
   display: flex;
   align-items: center;
 }
 .textarea_wrap .textLengthWrap p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 18px;
   color: var(--clr-999999);
@@ -3134,8 +3155,8 @@ textarea {
   height: 120px;
   border: 1px solid var(--clr-616161);
   border-radius: 4px;
-  padding: 16px 16px 10px 16px;
-  font-size: 14px;
+  padding: 20px 20px 12px 20px;
+  font-size: 16px;
   line-height: 20px;
   resize: none;
   outline-color: var(--clr-323DA3);
@@ -3171,7 +3192,7 @@ table th span.table_sort::after {
   transform: translate(0, -50%);
   width: 8px;
   height: 16px;
-  background: url("/framework/assets/images/sorting.svg") no-repeat;
+  background: url("/framework/1.0.3/assets/images/sorting.svg") no-repeat;
 }
 table th span.table_sort.asc::after {
   content: "";
@@ -3181,7 +3202,7 @@ table th span.table_sort.asc::after {
   transform: translate(0, -50%);
   width: 8px;
   height: 16px;
-  background: url("/framework/assets/images/sorting_asc.svg") no-repeat;
+  background: url("/framework/1.0.3/assets/images/sorting_asc.svg") no-repeat;
 }
 table th span.table_sort.desc::after {
   content: "";
@@ -3191,7 +3212,7 @@ table th span.table_sort.desc::after {
   transform: translate(0, -50%);
   width: 8px;
   height: 16px;
-  background: url("/framework/assets/images/sorting_desc.svg") no-repeat;
+  background: url("/framework/1.0.3/assets/images/sorting_desc.svg") no-repeat;
 }
 
 .dataTable {
@@ -5016,7 +5037,7 @@ main.hidden {
 .mapWrap .mapView {
   width: 40%;
   height: 100%;
-  background: url("/framework/assets/images/part_map.png") center/cover
+  background: url("/framework/1.0.3/assets/images/part_map.png") center/cover
     no-repeat;
   transition: width 0.3s;
 }
@@ -5350,8 +5371,8 @@ main.hidden {
 .con03 .preview_g #previewWrap label {
   width: 88px;
   height: 88px;
-  background: var(--clr-EEEEEE) url("/framework/assets/images/part_plus.svg")
-    center no-repeat;
+  background: var(--clr-EEEEEE)
+    url("/framework/1.0.3/assets/images/part_plus.svg") center no-repeat;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -5397,7 +5418,7 @@ main.hidden {
   width: 24px;
   height: 24px;
   background: var(--clr-333333)
-    url("/framework/assets/images/part_closeBtn.svg") center no-repeat;
+    url("/framework/1.0.3/assets/images/part_closeBtn.svg") center no-repeat;
   opacity: 0.8;
 }
 .con03 .preview_g #preview_list .imgWrap img {
@@ -5543,8 +5564,8 @@ main.hidden {
   transform: translate(-50%, 0);
   width: 32px;
   height: 16px;
-  background: url("/framework/assets/images/part_modal_arrow.svg") top center
-    no-repeat;
+  background: url("/framework/1.0.3/assets/images/part_modal_arrow.svg") top
+    center no-repeat;
 }
 .partner_map_modal .modalWrap .modalTitle {
   display: flex;
@@ -5685,8 +5706,8 @@ main.hidden {
   cursor: pointer;
   width: 88px;
   height: 88px;
-  background: var(--clr-EEEEEE) url("/framework/assets/images/part_plus.svg")
-    center no-repeat;
+  background: var(--clr-EEEEEE)
+    url("/framework/1.0.3/assets/images/part_plus.svg") center no-repeat;
   border-radius: 4px;
 }
 .preview_g #previewWrap input {
@@ -5736,7 +5757,7 @@ main.hidden {
   width: 24px;
   height: 24px;
   background: var(--clr-333333)
-    url("/framework/assets/images/part_closeBtn.svg") center no-repeat;
+    url("/framework/1.0.3/assets/images/part_closeBtn.svg") center no-repeat;
   opacity: 0.8;
 }
 .preview_g #preview_list .imgWrap img {
@@ -5778,7 +5799,7 @@ main.hidden {
   content: "";
   width: 20px;
   height: 14px;
-  background: url("/framework/assets/images/part_alarm_check.svg") center
+  background: url("/framework/1.0.3/assets/images/part_alarm_check.svg") center
     no-repeat;
   position: absolute;
   left: 16px;
@@ -5793,7 +5814,7 @@ main.hidden {
   content: "";
   width: 24px;
   height: 24px;
-  background: url("/framework/assets/images/part_alarm_error.svg") center
+  background: url("/framework/1.0.3/assets/images/part_alarm_error.svg") center
     no-repeat;
   position: absolute;
   left: 16px;
@@ -5807,4 +5828,3 @@ main.hidden {
   color: var(--clr-616161);
   margin-top: 4px;
 } /*# sourceMappingURL=style.css.map */
-

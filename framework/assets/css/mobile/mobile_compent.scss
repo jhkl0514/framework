@@ -79,7 +79,8 @@
       content: "";
       width: 20px;
       height: 14px;
-      background: url("/framework/assets/images/part_alarm_check.svg") center no-repeat;
+      background: url("/framework/1.0.3/assets/images/part_alarm_check.svg")
+        center no-repeat;
       position: absolute;
       left: 16px;
       top: 22px;
@@ -93,7 +94,8 @@
         content: "";
         width: 24px;
         height: 24px;
-        background: url("/framework/assets/images/part_alarm_error.svg") center no-repeat;
+        background: url("/framework/1.0.3/assets/images/part_alarm_error.svg")
+          center no-repeat;
         position: absolute;
         left: 16px;
         top: 16px;
@@ -121,7 +123,8 @@
   overflow: hidden;
 
   .mapView {
-    background: url("/framework/assets/images/part_map.png") center/cover no-repeat;
+    background: url("/framework/1.0.3/assets/images/part_map.png") center/cover
+      no-repeat;
     // height: calc(100vh - 70%);
     height: 280px;
     transition: height 0.3s;
@@ -338,8 +341,8 @@
             &:hover {
               border-radius: 4px;
               background: var(--clr-EFF1FD)
-                url("/framework/assets/images/DDY_select_checked.svg") center right 8px / auto
-                no-repeat;
+                url("/framework/1.0.3/assets/images/DDY_select_checked.svg")
+                center right 8px / auto no-repeat;
               button {
                 color: var(--clr-323DA3);
                 background: none;
@@ -349,8 +352,8 @@
               // padding: 9px 28px 9px 12px;
               border-radius: 4px;
               background: var(--clr-EFF1FD)
-                url("/framework/assets/images/DDY_select_checked.svg") center right 8px / auto
-                no-repeat;
+                url("/framework/1.0.3/assets/images/DDY_select_checked.svg")
+                center right 8px / auto no-repeat;
               button {
                 color: var(--clr-323DA3);
                 background: none;

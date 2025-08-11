@@ -1,6 +1,7 @@
 .DDY_header {
   height: 135px;
-  background: url("/framework/assets/images/DDY_line.jpg") top center no-repeat;
+  background: url("/framework/1.0.3/assets/images/DDY_line.jpg") top center
+    no-repeat;
   background-size: 3000px 135px;
 }
 .DDY_header img {
@@ -80,9 +81,9 @@ button {
 }
 
 .high_M {
-  height: 46px;
+  height: 48px;
   font-size: 16px;
-  line-height: 45px;
+  line-height: 48px;
   gap: 8px;
 }
 
@@ -132,7 +133,8 @@ button {
   transform: translate(0, -50%);
   width: 16px;
   height: 16px;
-  background: url("/framework/assets/images/indicator_icon.svg") center no-repeat;
+  background: url("/framework/1.0.3/assets/images/indicator_icon.svg") center
+    no-repeat;
 }
 .indicator li:last-child::after {
   display: none;
@@ -522,4 +524,4 @@ table .Tright {
   .img_flex {
     display: block;
   }
-}/*# sourceMappingURL=common.css.map */
+} /*# sourceMappingURL=common.css.map */

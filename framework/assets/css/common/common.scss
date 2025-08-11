@@ -1,7 +1,8 @@
 // 지우기 s
 .DDY_header {
   height: 135px;
-  background: url("/framework/assets/images/DDY_line.jpg") top center no-repeat;
+  background: url("/framework/1.0.3/assets/images/DDY_line.jpg") top center
+    no-repeat;
   background-size: 3000px 135px;
   img {
     height: 142px;
@@ -154,7 +155,8 @@ button {
       transform: translate(0, -50%);
       width: 16px;
       height: 16px;
-      background: url("/framework/assets/images/indicator_icon.svg") center no-repeat;
+      background: url("/framework/1.0.3/assets/images/indicator_icon.svg")
+        center no-repeat;
     }
     &:last-child::after {
       display: none;

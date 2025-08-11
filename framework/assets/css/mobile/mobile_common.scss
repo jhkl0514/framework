@@ -960,8 +960,8 @@ nav {
       label {
         width: 88px;
         height: 88px;
-        background: var(--clr-EEEEEE) url("/framework/assets/images/part_plus.svg") center
-          no-repeat;
+        background: var(--clr-EEEEEE)
+          url("/framework/1.0.3/assets/images/part_plus.svg") center no-repeat;
         border-radius: 4px;
       }
       input {
@@ -996,8 +996,9 @@ nav {
             display: block;
             width: 24px;
             height: 24px;
-            background: var(--clr-333333) url("/framework/assets/images/part_closeBtn.svg")
-              center no-repeat;
+            background: var(--clr-333333)
+              url("/framework/1.0.3/assets/images/part_closeBtn.svg") center
+              no-repeat;
             opacity: 0.8;
           }
         }

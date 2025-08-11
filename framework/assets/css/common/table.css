@@ -11,7 +11,7 @@ table th span.table_sort::after {
   transform: translate(0, -50%);
   width: 8px;
   height: 16px;
-  background: url("/framework/assets/images/sorting.svg") no-repeat;
+  background: url("/framework/1.0.3/assets/images/sorting.svg") no-repeat;
 }
 table th span.table_sort.asc::after {
   content: "";
@@ -21,7 +21,7 @@ table th span.table_sort.asc::after {
   transform: translate(0, -50%);
   width: 8px;
   height: 16px;
-  background: url("/framework/assets/images/sorting_asc.svg") no-repeat;
+  background: url("/framework/1.0.3/assets/images/sorting_asc.svg") no-repeat;
 }
 table th span.table_sort.desc::after {
   content: "";
@@ -31,7 +31,7 @@ table th span.table_sort.desc::after {
   transform: translate(0, -50%);
   width: 8px;
   height: 16px;
-  background: url("/framework/assets/images/sorting_desc.svg") no-repeat;
+  background: url("/framework/1.0.3/assets/images/sorting_desc.svg") no-repeat;
 }
 
 .dataTable {
@@ -334,4 +334,4 @@ table th span.table_sort.desc::after {
   display: flex;
   gap: 8px;
   align-items: center;
-}/*# sourceMappingURL=table.css.map */
+} /*# sourceMappingURL=table.css.map */

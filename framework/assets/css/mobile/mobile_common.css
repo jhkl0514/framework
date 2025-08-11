@@ -239,7 +239,8 @@ nav p {
   justify-content: space-between;
   height: 56px;
   background-color: var(--clr-FFFFFF);
-  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2), 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 4px 0px rgba(0, 0, 0, 0.12);
   padding: 0 12px;
   z-index: 1;
 }
@@ -454,7 +455,8 @@ nav p {
   background: var(--clr-FFFFFF);
   border: 1px solid var(--clr-FFFFFF);
   border-radius: 8px;
-  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.08), 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.08),
+    0px 0px 1px 0px rgba(0, 0, 0, 0.2);
   padding: 24px 8px 24px 16px;
 }
 .mapList ul li a .contents > div {
@@ -830,7 +832,8 @@ nav p {
 .con03 .preview_g #previewWrap label {
   width: 88px;
   height: 88px;
-  background: var(--clr-EEEEEE) url("/framework/assets/images/part_plus.svg") center no-repeat;
+  background: var(--clr-EEEEEE)
+    url("/framework/1.0.3/assets/images/part_plus.svg") center no-repeat;
   border-radius: 4px;
 }
 .con03 .preview_g #previewWrap input {
@@ -866,7 +869,8 @@ nav p {
   display: block;
   width: 24px;
   height: 24px;
-  background: var(--clr-333333) url("/framework/assets/images/part_closeBtn.svg") center no-repeat;
+  background: var(--clr-333333)
+    url("/framework/1.0.3/assets/images/part_closeBtn.svg") center no-repeat;
   opacity: 0.8;
 }
 .con03 .preview_g #preview_list .imgWrap img {
@@ -1123,4 +1127,4 @@ table .Tcenter {
 .mob_high_M button,
 .mob_high_M input {
   font-size: inherit;
-}/*# sourceMappingURL=mobile_common.css.map */
+} /*# sourceMappingURL=mobile_common.css.map */

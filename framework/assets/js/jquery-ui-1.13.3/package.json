@@ -69,7 +69,7 @@
 		"grunt-compare-size": "0.4.2",
 		"grunt-contrib-concat": "2.1.0",
 		"grunt-contrib-csslint": "2.0.0",
-		"grunt-contrib-requirejs": "1.0.0",
+		"grunt-contrib-requirejs": "1.0.2",
 		"grunt-contrib-uglify": "5.2.2",
 		"grunt-eslint": "24.0.1",
 		"grunt-git-authors": "3.2.0",

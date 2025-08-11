@@ -59,7 +59,8 @@
   border-radius: 8px;
   border: 1px solid var(--clr-43A047);
   background-color: var(--clr-E8F5E9);
-  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2), 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 4px 0px rgba(0, 0, 0, 0.12);
   font-size: 16px;
   font-weight: 600;
   padding: 8px 16px 8px 44px;
@@ -72,7 +73,8 @@
   content: "";
   width: 20px;
   height: 14px;
-  background: url("/framework/assets/images/part_alarm_check.svg") center no-repeat;
+  background: url("/framework/1.0.3/assets/images/part_alarm_check.svg") center
+    no-repeat;
   position: absolute;
   left: 16px;
   top: 22px;
@@ -86,7 +88,8 @@
   content: "";
   width: 24px;
   height: 24px;
-  background: url("/framework/assets/images/part_alarm_error.svg") center no-repeat;
+  background: url("/framework/1.0.3/assets/images/part_alarm_error.svg") center
+    no-repeat;
   position: absolute;
   left: 16px;
   top: 16px;
@@ -106,7 +109,8 @@
   overflow: hidden;
 }
 .mapWrap .mapView {
-  background: url("/framework/assets/images/part_map.png") center/cover no-repeat;
+  background: url("/framework/1.0.3/assets/images/part_map.png") center/cover
+    no-repeat;
   height: 280px;
   transition: height 0.3s;
 }
@@ -270,7 +274,11 @@
 }
 .DDY_mobile_modal .modalWrap .modalContent .option::before {
   content: "";
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 60%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 60%
+  );
   height: 20px;
   width: 100%;
   position: absolute;
@@ -294,7 +302,12 @@
   background: var(--clr-E0E0E0); /* 스크롤바 막대 색상 */
   border-radius: 12px 12px 12px 12px;
 }
-.DDY_mobile_modal .modalWrap .modalContent .option ul ::-webkit-scrollbar-track {
+.DDY_mobile_modal
+  .modalWrap
+  .modalContent
+  .option
+  ul
+  ::-webkit-scrollbar-track {
   background: var(--clr-333333); /*스크롤바 뒷 배경 색상*/
 }
 .DDY_mobile_modal .modalWrap .modalContent .option ul li {
@@ -307,7 +320,9 @@
 }
 .DDY_mobile_modal .modalWrap .modalContent .option ul li:hover {
   border-radius: 4px;
-  background: var(--clr-EFF1FD) url("/framework/assets/images/DDY_select_checked.svg") center right 8px/auto no-repeat;
+  background: var(--clr-EFF1FD)
+    url("/framework/1.0.3/assets/images/DDY_select_checked.svg") center right
+    8px / auto no-repeat;
 }
 .DDY_mobile_modal .modalWrap .modalContent .option ul li:hover button {
   color: var(--clr-323DA3);
@@ -315,7 +330,9 @@
 }
 .DDY_mobile_modal .modalWrap .modalContent .option ul li.checked {
   border-radius: 4px;
-  background: var(--clr-EFF1FD) url("/framework/assets/images/DDY_select_checked.svg") center right 8px/auto no-repeat;
+  background: var(--clr-EFF1FD)
+    url("/framework/1.0.3/assets/images/DDY_select_checked.svg") center right
+    8px / auto no-repeat;
 }
 .DDY_mobile_modal .modalWrap .modalContent .option ul li.checked button {
   color: var(--clr-323DA3);
@@ -527,4 +544,4 @@
   font-size: 16px;
   color: var(--clr-616161);
   text-align: center;
-}/*# sourceMappingURL=mobile_compent.css.map */
+} /*# sourceMappingURL=mobile_compent.css.map */

@@ -15,7 +15,8 @@ table {
           transform: translate(0, -50%);
           width: 8px;
           height: 16px;
-          background: url("/framework/assets/images/sorting.svg") no-repeat;
+          background: url("/framework/1.0.3/assets/images/sorting.svg")
+            no-repeat;
         }
         &.asc {
           &::after {
@@ -26,7 +27,8 @@ table {
             transform: translate(0, -50%);
             width: 8px;
             height: 16px;
-            background: url("/framework/assets/images/sorting_asc.svg") no-repeat;
+            background: url("/framework/1.0.3/assets/images/sorting_asc.svg")
+              no-repeat;
           }
         }
         &.desc {
@@ -38,7 +40,8 @@ table {
             transform: translate(0, -50%);
             width: 8px;
             height: 16px;
-            background: url("/framework/assets/images/sorting_desc.svg") no-repeat;
+            background: url("/framework/1.0.3/assets/images/sorting_desc.svg")
+              no-repeat;
           }
         }
       }

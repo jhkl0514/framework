@@ -268,7 +268,7 @@
 }
 .DDY_select .select.offline::after {
   content: "";
-  background: url("/framework/assets/images/guide/ver_icon.svg") center
+  background: url("/framework/1.0.3/assets/images/guide/ver_icon.svg") center
     no-repeat;
 }
 
@@ -616,4 +616,10 @@ nav {
   opacity: 0.8;
   background: #333 url("/img/subrental/mobile/size_up_icon.svg") center
     no-repeat;
+}
+
+.Tcolor_R {
+  color: #c62828;
+  font-weight: 700;
+  text-decoration: underline;
 }

@@ -636,7 +636,7 @@ main {
   .mapView {
     width: calc(100% - 60%);
     height: 100%;
-    background: url("/framework/assets/images/part_map.png") center/cover
+    background: url("/framework/1.0.3/assets/images/part_map.png") center/cover
       no-repeat;
     transition: width 0.3s;
     &.active {
@@ -1083,7 +1083,7 @@ main {
         width: 88px;
         height: 88px;
         background: var(--clr-EEEEEE)
-          url("/framework/assets/images/part_plus.svg") center no-repeat;
+          url("/framework/1.0.3/assets/images/part_plus.svg") center no-repeat;
         border-radius: 4px;
         cursor: pointer;
       }
@@ -1129,7 +1129,8 @@ main {
           width: 24px;
           height: 24px;
           background: var(--clr-333333)
-            url("/framework/assets/images/part_closeBtn.svg") center no-repeat;
+            url("/framework/1.0.3/assets/images/part_closeBtn.svg") center
+            no-repeat;
           opacity: 0.8;
         }
         img {

@@ -44,7 +44,8 @@
       transform: translate(-50%, 0);
       width: 32px;
       height: 16px;
-      background: url("/framework/assets/images/part_modal_arrow.svg") top center no-repeat;
+      background: url("/framework/1.0.3/assets/images/part_modal_arrow.svg") top
+        center no-repeat;
     }
 
     .modalTitle {
@@ -196,8 +197,8 @@
       cursor: pointer;
       width: 88px;
       height: 88px;
-      background: var(--clr-EEEEEE) url("/framework/assets/images/part_plus.svg") center
-        no-repeat;
+      background: var(--clr-EEEEEE)
+        url("/framework/1.0.3/assets/images/part_plus.svg") center no-repeat;
       border-radius: 4px;
     }
     input {
@@ -245,8 +246,9 @@
           display: block;
           width: 24px;
           height: 24px;
-          background: var(--clr-333333) url("/framework/assets/images/part_closeBtn.svg")
-            center no-repeat;
+          background: var(--clr-333333)
+            url("/framework/1.0.3/assets/images/part_closeBtn.svg") center
+            no-repeat;
           opacity: 0.8;
         }
       }
@@ -294,7 +296,8 @@
       content: "";
       width: 20px;
       height: 14px;
-      background: url("/framework/assets/images/part_alarm_check.svg") center no-repeat;
+      background: url("/framework/1.0.3/assets/images/part_alarm_check.svg")
+        center no-repeat;
       position: absolute;
       left: 16px;
       top: 22px;
@@ -308,7 +311,8 @@
         content: "";
         width: 24px;
         height: 24px;
-        background: url("/framework/assets/images/part_alarm_error.svg") center no-repeat;
+        background: url("/framework/1.0.3/assets/images/part_alarm_error.svg")
+          center no-repeat;
         position: absolute;
         left: 16px;
         top: 16px;

@@ -18,7 +18,8 @@
       width: 24px;
       height: 25px;
       transform: translate(0, -50%);
-      background: url("/framework/assets/images/select_arrow.svg") center no-repeat;
+      background: url("/framework/1.0.3/assets/images/select_arrow.svg") center
+        no-repeat;
       cursor: pointer;
     }
     &.offline {
@@ -39,7 +40,8 @@
       }
       &::after {
         content: "";
-        background: url("/framework/assets/images/select_arrow_disable.svg") center no-repeat;
+        background: url("/framework/1.0.3/assets/images/select_arrow_disable.svg")
+          center no-repeat;
       }
       &.font_c {
         button {
@@ -167,8 +169,9 @@
           border-radius: 4px;
         }
         &.checked {
-          background: var(--clr-EFF1FD) url("/framework/assets/images/DDY_select_checked.svg")
-            center right 8px no-repeat;
+          background: var(--clr-EFF1FD)
+            url("/framework/1.0.3/assets/images/DDY_select_checked.svg") center
+            right 8px no-repeat;
           border-radius: 4px;
           button {
             color: var(--clr-323DA3);
@@ -1705,7 +1708,8 @@
         transform: translate(0, -50%);
         width: 24px;
         height: 24px;
-        background: url("/framework/assets/images/select_arrow.svg") no-repeat;
+        background: url("/framework/1.0.3/assets/images/select_arrow.svg")
+          no-repeat;
       }
       span {
         font-size: 16px;
@@ -1793,8 +1797,8 @@
     display: none;
     &:checked + label:before {
       border: 1px solid var(--clr-323DA3);
-      background: var(--clr-323DA3) url("/framework/assets/images/checkbox_icon.svg") center
-        no-repeat;
+      background: var(--clr-323DA3)
+        url("/framework/1.0.3/assets/images/checkbox_icon.svg") center no-repeat;
     }
   }
 
@@ -1812,8 +1816,9 @@
       display: none;
       &:checked + label:before {
         border: 1px solid var(--clr-BDBDBD);
-        background: var(--clr-EEEEEE) url("/framework/assets/images/checkbox_disable.svg")
-          center no-repeat;
+        background: var(--clr-EEEEEE)
+          url("/framework/1.0.3/assets/images/checkbox_disable.svg") center
+          no-repeat;
       }
     }
   }
@@ -1850,7 +1855,8 @@
       display: none;
       &:checked + label:before {
         border: 1px solid var(--clr-323DA3);
-        background: var(--clr-141E76) url("/framework/assets/images/checkbox_icon.svg") center
+        background: var(--clr-141E76)
+          url("/framework/1.0.3/assets/images/checkbox_icon.svg") center
           no-repeat;
       }
     }
@@ -1859,8 +1865,9 @@
         display: none;
         &:checked + label:before {
           border: 1px solid var(--clr-BDBDBD);
-          background: var(--clr-EEEEEE) url("/framework/assets/images/checkbox_disable.svg")
-            center no-repeat;
+          background: var(--clr-EEEEEE)
+            url("/framework/1.0.3/assets/images/checkbox_disable.svg") center
+            no-repeat;
         }
       }
     }
@@ -1909,7 +1916,8 @@
       transform: translate(0, -50%);
       width: 16px;
       height: 16px;
-      background: url("/framework/assets/images/indicator_icon.svg") center no-repeat;
+      background: url("/framework/1.0.3/assets/images/indicator_icon.svg")
+        center no-repeat;
     }
     &:last-child::after {
       display: none;

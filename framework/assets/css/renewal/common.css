@@ -52,7 +52,8 @@ header .h_right > a {
   border-radius: 4px;
   background-color: var(--clr-FFFFFF);
   border: 1px solid var(--clr-333333);
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12),
+    0px 0px 2px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   visibility: hidden;
   opacity: 0;
@@ -396,7 +397,8 @@ main.hidden {
   height: 62px;
   margin-bottom: 24px;
   border-radius: 4px;
-  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.08), 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.08),
+    0px 0px 1px 0px rgba(0, 0, 0, 0.2);
 }
 .partner_topText p {
   font-size: 16px;
@@ -566,7 +568,8 @@ main.hidden {
 .mapWrap .mapView {
   width: 40%;
   height: 100%;
-  background: url("/framework/assets/images/part_map.png") center/cover no-repeat;
+  background: url("/framework/1.0.3/assets/images/part_map.png") center/cover
+    no-repeat;
   transition: width 0.3s;
 }
 .mapWrap .mapView.active {
@@ -605,7 +608,8 @@ main.hidden {
   padding: 16px 12px;
   border-radius: 4px;
   background-color: var(--clr-FFFFFF);
-  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2), 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 4px 0px rgba(0, 0, 0, 0.12);
 }
 .mapWrap .legend span {
   position: relative;
@@ -713,7 +717,8 @@ main.hidden {
   background: var(--clr-FFFFFF);
   z-index: 10;
   transition: right 0.2s;
-  box-shadow: -8px 0px 16px 0px rgba(0, 0, 0, 0.12), 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: -8px 0px 16px 0px rgba(0, 0, 0, 0.12),
+    0px 0px 8px 0px rgba(0, 0, 0, 0.12);
   transition: width 0.3s;
 }
 .mapListWrap.active {
@@ -897,7 +902,8 @@ main.hidden {
 .con03 .preview_g #previewWrap label {
   width: 88px;
   height: 88px;
-  background: var(--clr-EEEEEE) url("/framework/assets/images/part_plus.svg") center no-repeat;
+  background: var(--clr-EEEEEE)
+    url("/framework/1.0.3/assets/images/part_plus.svg") center no-repeat;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -942,7 +948,8 @@ main.hidden {
   right: 0;
   width: 24px;
   height: 24px;
-  background: var(--clr-333333) url("/framework/assets/images/part_closeBtn.svg") center no-repeat;
+  background: var(--clr-333333)
+    url("/framework/1.0.3/assets/images/part_closeBtn.svg") center no-repeat;
   opacity: 0.8;
 }
 .con03 .preview_g #preview_list .imgWrap img {
@@ -1043,4 +1050,4 @@ main.hidden {
     min-width: 1440px;
     overflow-x: auto;
   }
-}/*# sourceMappingURL=common.css.map */
+} /*# sourceMappingURL=common.css.map */
